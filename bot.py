@@ -4,8 +4,8 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Твої ключі
-TELEGRAM_TOKEN = '6324889917:AAEhMJbosa1yaLo6TBXc_2k-SOH0WOuABug'
-OPENWEATHERMAP_API_KEY = '08a374c848fced2b5665a4a7fb20544b'
+TELEGRAM_TOKEN = 'telegram_token'
+OPENWEATHERMAP_API_KEY = 'open_weather_api_key'
 
 # Налаштування логування
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
